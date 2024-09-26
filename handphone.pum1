@@ -7,6 +7,7 @@ class Handphone {
     + void matikan()
     + void telepon(String nomor)
 }
+
 class Smartphone {
     + Smartphone(String merk, String model)
     + void nyalakan()
@@ -14,13 +15,15 @@ class Smartphone {
     + void telepon(String nomor)
     + void aksesInternet()
 }
+
 class FeaturePhone {
     + FeaturePhone(String merk, String model)
     + void nyalakan()
     + void matikan()
     + void telepon(String nomor)
-    + void mainGameSnake()
+    + void mainMobileLegend()
 }
+
 Handphone <|-- Smartphone
 Handphone <|-- FeaturePhone
 @enduml
